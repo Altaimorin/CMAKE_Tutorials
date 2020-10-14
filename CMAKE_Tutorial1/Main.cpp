@@ -1,6 +1,6 @@
-#include<iostream>
+#include "print.hpp"
 int main(int argc, char** argv)
 {
-   std::cout << "Success!" << std::endl;
-   return 0;
+	print();
+   	return 0;
 }
